@@ -1,0 +1,11 @@
+{
+  "name": "@wcd/dineshy87.swc-status-light-fork-lgxbdgn8",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve qzU3uaYuE2HwKyUHwMwV --open"
+  }
+}
