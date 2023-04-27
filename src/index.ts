@@ -37,7 +37,7 @@ export default class StatuslightAndBadge extends LitElement {
     <div class="fieldset">
       <h4>Statuses</h4>
       <p>
-        <sp-status-light variant="positive" disabled>
+        <sp-status-light variant="positive">
           positive status light
         </sp-status-light>
       </p>
@@ -133,12 +133,12 @@ export default class StatuslightAndBadge extends LitElement {
       </div>
       <h4>Non-semantic</h4>
       <div class="badges">
-          <p><sp-badge variant="seafoam" static="black" style="--mod-badge-background-color-default: var(--spectrum-seafoam-background-color-default)">Seafoam</sp-badge></p>
-          <p><sp-badge variant="indigo" static="black" style="--mod-badge-background-color-default: var(--spectrum-indigo-background-color-default)">Indigo</sp-badge></p>
-          <p><sp-badge variant="purple" static="black" style="--mod-badge-background-color-default: var(--spectrum-purple-background-color-default)">Purple</sp-badge></p>
-          <p><sp-badge variant="fuchsia" static="black" style="--mod-badge-background-color-default: var(--spectrum-fuchsia-background-color-default)">Fuchsia</sp-badge></p>
-          <p><sp-badge variant="magenta" static="black" style="--mod-badge-background-color-default: var(--spectrum-magenta-background-color-default)">Magenta</sp-badge></p>
-          <p><sp-badge variant="yellow" static="black" style="--mod-badge-background-color-default: var(--spectrum-yellow-background-color-default); --mod-badge-label-icon-color-white: var(--spectrum-black);">Yellow</sp-badge></p>
+          <p><sp-badge variant="seafoam" style="--mod-badge-background-color-default: var(--spectrum-seafoam-background-color-default)">Seafoam</sp-badge></p>
+          <p><sp-badge variant="indigo" style="--mod-badge-background-color-default: var(--spectrum-indigo-background-color-default)">Indigo</sp-badge></p>
+          <p><sp-badge variant="purple" style="--mod-badge-background-color-default: var(--spectrum-purple-background-color-default)">Purple</sp-badge></p>
+          <p><sp-badge variant="fuchsia" style="--mod-badge-background-color-default: var(--spectrum-fuchsia-background-color-default)">Fuchsia</sp-badge></p>
+          <p><sp-badge variant="magenta" style="--mod-badge-background-color-default: var(--spectrum-magenta-background-color-default)">Magenta</sp-badge></p>
+          <p><sp-badge variant="yellow" style="--mod-badge-background-color-default: var(--spectrum-yellow-background-color-default); --mod-badge-label-icon-color-white: var(--spectrum-black);">Yellow</sp-badge></p>
       </div>
     </div>
     `;
